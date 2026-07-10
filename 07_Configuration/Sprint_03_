@@ -1,0 +1,23 @@
+Lead
+   │
+   ▼
+Lead Qualification
+   │
+   ▼
+Lead Conversion
+   │
+   ├──► Account
+   ├──► Contact
+   └──► Opportunity
+                    │
+                    ▼
+              Opportunity Won
+                    │
+                    ▼
+             Customer Support
+                    │
+                    ▼
+                  Case
+                    │
+                    ▼
+             Customer Feedback
