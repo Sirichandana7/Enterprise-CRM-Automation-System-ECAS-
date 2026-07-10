@@ -21,3 +21,36 @@ Lead Conversion
                     │
                     ▼
              Customer Feedback
+
+
+| Business Process  | Salesforce Object    | Type       |
+| ----------------- | -------------------- | ---------- |
+| Prospect          | Lead                 | Standard   |
+| Company           | Account              | Standard   |
+| Person            | Contact              | Standard   |
+| Deal              | Opportunity          | Standard   |
+| Customer Issue    | Case                 | Standard   |
+| Marketing         | Campaign             | Standard   |
+| Products Sold     | Product              | Standard   |
+| Customer Feedback | Customer_Feedback__c | **Custom** |
+
+
+Lead
+   │
+   ▼
+Lead Conversion
+   │
+   ├────────► Account
+   │              │
+   │              ├────────► Contact
+   │              │
+   │              ├────────► Opportunity
+   │              │                 │
+   │              │                 ▼
+   │              │              Products
+   │              │
+   │              ▼
+   │            Cases
+   │              │
+   │              ▼
+   └────► Customer Feedback
